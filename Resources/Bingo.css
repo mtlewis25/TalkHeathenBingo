@@ -36,3 +36,13 @@ footer {
   position: fixed;
   bottom: 10px;
 }
+#error{
+  text-align: center;
+  width: 100%;
+  color: red;
+}
+#newBoardButton{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
