@@ -1,0 +1,48 @@
+table {
+  user-select: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  background-color: lightGrey;
+  width: 110px;
+  height: 130px;
+  border-left: 4px solid white;
+  border-bottom: 4px solid white;
+  padding: 10px;
+}
+th {
+  font-size: 32;
+  border-bottom: 10px solid white;
+}
+.free-space {
+  background-color: white;
+  font-size: 12;
+}
+.selected {
+  background-color: lightcoral;
+}
+.left-image {
+  float: left;
+}
+.right-image{
+  float: right;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  color: grey;
+  position: fixed;
+  bottom: 10px;
+}
+#error{
+  text-align: center;
+  width: 100%;
+  color: red;
+}
+#newBoardButton{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
