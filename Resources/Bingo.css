@@ -1,5 +1,7 @@
 table {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 td {
   background-color: lightGrey;
@@ -11,10 +13,18 @@ td {
 }
 th {
   font-size: 32;
+  border-bottom: 10px solid white;
 }
 .free-space {
   background-color: white;
+  font-size: 12;
 }
 .selected {
   background-color: lightcoral;
+}
+.left-image {
+  float: left;
+}
+.right-image{
+  float: right;
 }
